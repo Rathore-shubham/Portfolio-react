@@ -31,7 +31,7 @@ const SkillsPage = () => {
   }, []);
 
   return (
-    <div className="skills-page py-10 bg-[#161313] text-center">
+    <div className="skills-page py-10 px-8 bg-[#161313] text-center">
       <h2 className="skills-heading text-4xl font-bold mb-10 text-white">
         My Skills
       </h2>
@@ -65,6 +65,9 @@ const SkillsPage = () => {
         </div>
         <div className="skill-item text-lg font-medium px-6 py-3 border-2 border-gray-300 rounded-lg shadow-lg bg-[#161313] hover:bg-zinc-900 transition transform hover:scale-105">
           JavaScript
+        </div>
+        <div className="skill-item text-lg font-medium px-6 py-3 border-2 border-gray-300 rounded-lg shadow-lg bg-[#161313] hover:bg-zinc-900 transition transform hover:scale-105">
+          Django
         </div>
       </div>
     </div>

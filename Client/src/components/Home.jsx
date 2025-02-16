@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import "../index.css";
 import House from "../canvas/img";
 
+
 const Home = () => {
   const [active, setActive] = useState("");
   return (
@@ -16,6 +17,15 @@ const Home = () => {
           <p className={`${styles.heroSubText} mt-1 text-stone-950`}>
             <span className="text-white">Full Stack Developer... </span> 
           </p>
+
+          <a
+            href="/SHUBHAM.pdf"  // Make sure to put your resume in the 'public' folder
+            download="SHUBHAM_Rathore_Resume.pdf"
+            className="mt-5 inline-block px-6 py-3 bg-zinc-800 text-white font-light rounded-lg shadow-md hover:bg-zinc-700 transition"
+          >
+            Download Resume
+          </a>
+
           <ul className="list-none flex flex-row mt-4 gap-5 sm:flex">
             <li>
               <a
